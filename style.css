@@ -1,0 +1,247 @@
+*{
+        font-family: "Mukta", sans-serif;
+        margin: 0;;
+        padding: 0;
+        box-sizing: border-box;
+}
+nav{
+        /* background-color: transparent; */
+        background-color: rgb(255, 255, 255);
+        height: 100px;
+        display: flex; 
+        justify-content: center;
+        padding: 10px;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        margin-top: 20px;
+}
+
+nav img{
+        display: flex;
+        align-items: flex-start;
+        height: 70px;
+        width: 250px;
+        /* border-radius: 50px; */
+        margin-right: 280px;
+}
+
+nav ul{
+        display: flex;
+        
+}
+
+nav ul li a{
+        margin: 10px;
+        /* margin-top: 20px; */
+        color: rgb(103, 130, 68);
+        text-decoration: none;
+        font-size: 20px;
+        /* font-weight: bolder; */
+        display: flex;
+        justify-content: space-between;
+
+}
+
+nav ul li a:hover{
+        /* text-shadow: 2px 4px 6px black; */
+        text-shadow: 0px 0px 10px rgb(255, 255, 255);
+        /* color: blue; */
+        /* background-color: white; */
+        color: black;
+        /* box-shadow: 0 0 10px white; */
+}
+
+#home{
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+}
+
+#home::before{
+        content: "";
+        background-image: url(https://images.squarespace-cdn.com/content/v1/6291604274bc7d0c02445423/2bfc701c-a23a-4ee1-8cd5-ae9c1aa9e12d/Homepage-edit-First-Image.jpg?format=original);
+        height: 75%;
+        width: 100%;
+        background-size: cover;
+}
+
+/* .main{
+        display: flex;
+        position: absolute;
+        border: 2px inset blueviolet;
+        padding: 30px;
+        top: 80%;
+        left: 45%;
+        box-shadow: 2px 4px 6px white;
+} */
+
+.main {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        color: rgb(52, 82, 31);
+        top: 40%;
+        left: 5%;
+        /* padding: 10px; */
+
+}
+.main h5{
+        padding-top: 20px;
+        padding-bottom: 20px;
+}
+
+.main a{
+        width: 250px;
+        height: 50px;
+        padding: 10px;
+        color: white;
+        /* margin: 10px; */
+}
+
+/* #value h3{
+        color: darkblue;
+        text-align: center;
+        margin-top: 10px;
+        background-color: aquamarine;
+} */
+.row{
+        /* border: 3px ridge blueviolet; */
+        margin-top: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+}
+.line{
+        /* border: 3px ridge blueviolet; */
+        margin-top: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+}
+.gallery img{
+        width: 200px;
+        margin: 30px;
+        padding: 10px;
+        /* margin-left: 25px; */
+        cursor: pointer;
+}
+.line h5{
+        padding: 20px;
+        /* margin: 20px; */
+}
+/* .gallery img:hover{
+        scale: 1.05;
+        box-shadow: 2px 4px 6px blueviolet;
+} */
+
+.content{
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        height: 200px;
+      }
+.image-container1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: 1;
+        margin: 0 10px;
+        width: 100%;
+        height: 100px;
+      }
+      .image-container1 img {
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+      }
+      .image-container1 h5 {
+        margin-top: 10px;
+        text-align: justify;
+        color: hsl(151, 30%, 29%);
+      }
+
+      .pic{
+        display: flex;
+        margin-top: 100px;
+}
+.pic img{
+        width: 700px;
+        
+}
+.pic h3{
+        color: hsl(151, 30%, 29%);
+        text-align:left;
+        font-size: 30px;
+        /* font-style: italic; */
+        margin-left: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 50px;
+        margin-top: 40px;
+}
+.pic p{
+        text-align: justify;
+        margin: 10px;
+        color: hsl(151, 30%, 29%);
+        margin-left: 40px;
+        font-size: 20px;
+        margin-right: 20px;
+}
+      .pic1{
+        display: flex;
+        /* margin-top: 100px; */
+}
+.pic1 img{
+        width: 700px;
+        /* align-content: end; */
+        /* justify-content: end; */
+}
+.pic1 h3{
+        color: hsl(151, 30%, 29%);
+        text-align:left;
+        font-size: 30px;
+        /* font-style: italic; */
+        margin-left: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 50px;
+        margin-top: 40px;
+}
+.pic1 p{
+        text-align: justify;
+        margin: 10px;
+        color: hsl(151, 30%, 29%);
+        margin-left: 40px;
+        font-size: 20px;
+}
+      .pic2{
+        display: flex;
+        /* margin-top: 100px; */
+}
+.pic2 img{
+        width: 700px;
+        
+}
+.pic2 h3{
+        color: hsl(151, 30%, 29%);
+        text-align:left;
+        font-size: 30px;
+        /* font-style: italic; */
+        margin-left: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 50px;
+        margin-top: 40px;
+}
+.pic2 p{
+        text-align: justify;
+        margin: 10px;
+        color: hsl(151, 30%, 29%);
+        margin-left: 40px;
+        font-size: 20px;
+}
